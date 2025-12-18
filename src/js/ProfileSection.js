@@ -102,30 +102,36 @@ const ProfileSection = () => {
         </div>
       </div>
 
-      <p className="text-[#002E5B] text-sm py-5 max-w-screen-xl mx-auto px-6 sm:px-10">
-        Tarun Kumar Mandava is an IT Engineer by background but now owns and
-        operates a successful financial services agency. Tarun Kumar has 20+
-        years of corporate background working for Fortune 500 companies, where
-        he handled corporate roles with increasing responsibility.
+      <p className="text-[#002E5B] text-sm  max-w-screen-xl mx-auto px-6 sm:px-10">
+        Tarun Mandava is a financial educator, entrepreneur, and business leader dedicated to
+helping families build secure financial futures. He is the founder of Munna LLC (Mandava
+Financial Services), where the mission is simple yet powerful:
+      </p>
+      <p className="text-[#002E5B] text-lg py-3 max-w-screen-xl mx-auto px-6 sm:px-10">
+        “Building Financial Foundations for Families to Empower Them Today, and Leave a Legacy for
+Tomorrow.”
+      </p>
+      <p className="text-[#002E5B] text-sm  max-w-screen-xl mx-auto px-6 sm:px-10">
+        Through personalized financial strategies, Tarun has guided families in retirement planning,
+college funding, life insurance, and wealth transfer. As a Certified Tax & Business Advisor
+(<strong>CTBA</strong>) , he brings advanced expertise in tax efficient planning, wealth transfer, and
+business solutions helping families keep more of what they earn and pass on a stronger
+legacy to the next generation.
       </p>
 
-      <p className="text-[#002E5B] text-sm py-5 max-w-screen-xl mx-auto px-6 sm:px-10">
-        He wanted to create a legacy for his family and was always in a quest to
-        find opportunities to generate passive cash flow. He realized the
-        financial services industry is one of the largest, oldest, and
-        ever-growing industries in the world. Pursuing the mission to educate
-        more families financially, Tarun Kumar achieved his dream by creating
-        Mandava Financial Services.
+      <p className="text-[#002E5B] text-sm py-3 max-w-screen-xl mx-auto px-6 sm:px-10">
+        In addition to his financial work, Tarun brings a rich career in Information Technology
+(IT) spanning over 20 years. He holds advanced degrees including an MBA and MS in
+Business Analytics. His analytical skills and commitment to precision perfectly complement
+his passion for teaching financial literacy.
       </p>
 
-      <p className="text-[#002E5B] text-sm py-5 max-w-screen-xl mx-auto px-6 sm:px-10">
-        Through Mandava Financial Services, Tarun Kumar is following his grand
-        vision of “Building Financial Foundations for Families to Empower Them
-        Today, and Leave a Legacy for Tomorrow” by helping more and more
-        families learn the basics of personal finances and make a positive
-        difference for families and, more importantly, giving an equal
-        opportunity to people who have a dream of owning a business in the
-        financial services industry.
+      <p className="text-[#002E5B] text-sm  max-w-screen-xl mx-auto px-6 sm:px-10">
+        As a mentor and leader, Tarun has trained and inspired professionals to pursue careers in
+financial services empowering them to achieve both financial independence and personal
+growth. Outside of work, he is deeply family-oriented and community-driven. He believes
+true wealth is measured not only in dollars, but in the impact we leave behind for the next
+generation.
       </p>
 
       <div className="max-w-screen-xl mx-auto px-6 sm:px-10 pb-16 pt-8">

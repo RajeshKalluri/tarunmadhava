@@ -25,6 +25,9 @@ import Blog2 from "./js/blogs/Blog2";
 import Blog3 from "./js/blogs/Blog3";
 import Blog5 from "./js/blogs/Blog5";
 import Blog44 from "./js/blogs/Blog4";
+import Blog6 from "./js/blogs/Blog6";
+import Blog7 from "./js/blogs/Blog7";
+import Blog8 from "./js/blogs/Blog8";
 function App() {
   const navigate=useNavigate();
   const [isOpen, setIsOpen] = useState(false);
@@ -317,7 +320,7 @@ const defaultClass = "text-[#644e40]";
         )}
       </div>
 
-      <div className="pt-6">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<Aboutus />} />
@@ -346,12 +349,15 @@ const defaultClass = "text-[#644e40]";
             path="/BookAnAppointment"
             element={<Book_an_appointment></Book_an_appointment>}
           ></Route>
-          <Route path="/psection" element={<ProfileSection />}></Route>
+          <Route path="/Profile" element={<ProfileSection />}></Route>
           <Route path="/blog1" element={<Blog1 />}></Route>
           <Route path="/blog2" element={<Blog2 />}></Route>
           <Route path="/blog3" element={<Blog3 />}></Route>
           <Route path="/blog5" element={<Blog5 />}></Route>
           <Route path="/blog4" element={<Blog44 />}></Route>
+          <Route path="/blog6" element={<Blog6 />}></Route>
+          <Route path="/blog7" element={<Blog7 />}></Route>
+          <Route path="/blog8" element={<Blog8 />}></Route>
         </Routes>
       </div>
       <footer className="bg-[#333333] text-white">

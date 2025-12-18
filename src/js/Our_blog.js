@@ -2,8 +2,11 @@ import React from "react";
 import blog1 from "../images/new_blog.jpg";
 import blog3 from "../images/blog_3.png";
 import blog2 from "../images/blog_2.png";
+import blog6 from "../images/blog_6.png";
 import blog4 from "../images/blog_4.png";
 import blog5 from "../images/blog_5.png";
+import Blog7 from "../images/Blog7.png";
+import Blog8 from "../images/Blog8.png";
 import {Link} from "react-router-dom";
 export const Our_blog = () =>
 {
@@ -27,6 +30,23 @@ export const Our_blog = () =>
             date: "November 19, 2024", 
             image: blog2, 
             link: "/blog2"
+          },{ 
+            title: "Experior Financial Group & AOG Strategic Alliance", 
+            date: "November 24, 2024", 
+            image: Blog8, 
+            link: "/blog8"
+          },
+          {
+            title:"Building Financial Foundations for Families to Empower Them Today, and Leave a Legacy for Tomorrow.",
+            date:"November 05 2025",
+            image:blog6,
+            link:"/blog6"
+          },
+          {
+            title:"eXperior Factor 2025 | Experior Financial Group",
+            date:"May 21 2025",
+            image:Blog7,
+            link:"/blog7"
           },
           { 
             title: "How To Start Your Own Independent Insurance Agency", 
@@ -68,8 +88,10 @@ export const Our_blog = () =>
             <li><Link to='/blog1'>Tarun Kumar Mandava, Silver Legacy Owner!</Link></li>
             <li><Link to='/blog2'>The Best Ways for Agents to Get Life Insurance Leads</Link></li>
             <li><Link to="/blog3">How To Start Your Own Independent Insurance Agency</Link></li>
-            <li><Link to="blog4">Crafting an Effective Bio for Insurance Agents: Tips and Examples</Link></li>
-            <li><Link to="blog5">How to Increase Insurance Sales</Link></li>
+            <li><Link to="/blog4">Crafting an Effective Bio for Insurance Agents: Tips and Examples</Link></li>
+            <li><Link to="/blog5">How to Increase Insurance Sales</Link></li>
+            <li><Link to='/blog6'>Building Financial Foundations for Tomorrow.</Link></li>
+            <li><Link to='/blog7'>eXperior Factor 2025 | Experior Financial Group</Link></li>
           </ul>
         </div>
         <div>

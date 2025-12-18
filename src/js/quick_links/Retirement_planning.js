@@ -7,7 +7,7 @@ function Retirement_planning()
     return (
       <>
         <div>
-          <div className="bg-[#644e40] py-10 px-4 sm:px-6">
+          <div className="pt-10 px-4 sm:px-6">
             <h1 className="text-3xl font-bold text-[#d89e7f] text-center md:text-left md:px-48">
               Retirement Planning
             </h1>

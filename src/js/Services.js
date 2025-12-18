@@ -74,7 +74,7 @@ function Services() {
 
   return (
     <>
-  <div className="bg-gray-50">
+  <div className="pt-6 bg-gray-50">
     <section className="flex flex-col md:flex-row p-10 justify-between items-center max-w-screen-xl mx-auto px-6 sm:px-10 py-3">
       <div className="md:w-1/2 mb-8 md:mb-0">
         <h1 className="text-3xl md:text-4xl text-[#644e40] font-semibold leading-tight pb-8">
